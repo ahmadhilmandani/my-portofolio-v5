@@ -23,7 +23,7 @@ export default function Button({ onClickProp = () => { }, buttonType = BUTTON_TY
   if (buttonType == BUTTON_TYPE.PRIMARY) {
     return (
       <>
-        <button onClick={onClickProp} className={`relative z-10 bg-text-black font-semibold px-10 py-2.5 rounded-full overflow-hidden hover:bg-text-black/90 transition-all duration-400 hover:shadow-xl hover:shadow-sage-700/80 hover:cursor-pointer ${isExtend && 'w-full'} ${isLoading ? 'cursor-not-allowed' : 'cursor-pointer'}`}>
+        <button onClick={onClickProp} className={`relative z-10 bg-text-black font-semibold px-10 py-2.5 rounded-full overflow-hidden transition-all duration-400 hover:shadow-xl hover:shadow-sage-700/80 hover:cursor-pointer ${isExtend && 'w-full'} ${isLoading ? 'cursor-not-allowed' : 'cursor-pointer'}`}>
           <div className={`relative z-50 text-sage-500 ${buttonSize == 'large' ? 'text-2xl' : buttonSize == 'base' ? 'text-[14px]' : 'text-[12px]'} font-semibold`}>
             {isLoading && <IconLoader2 className="animate-spin text-sm" />}
             {children}
