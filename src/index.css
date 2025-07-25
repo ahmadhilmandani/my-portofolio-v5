@@ -114,7 +114,7 @@
   h4,
   h5,
   h6 {
-    @apply font-medium relative z-10 mb-4;
+    @apply font-semibold relative z-10 mb-4;
   }
 
   h1 {
