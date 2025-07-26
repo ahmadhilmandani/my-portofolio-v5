@@ -31,10 +31,10 @@ export default function Button({ onClickProp = () => { }, buttonType = BUTTON_TY
 
           <div className="absolute top-0 left-0 w-full h-[100%] z-40"
             style={{
-              background: "radial-gradient(rgba(68, 68, 76, 0.8), transparent 70%)",
+              background: "radial-gradient(rgba(68, 68, 76, 1), transparent 90%)",
               opacity: 0.7,
               transform:
-                "scale(2.3) rotate(-50deg)",
+                "scale(2.5) rotate(-50deg)",
             }}
           ></div>
         </button>

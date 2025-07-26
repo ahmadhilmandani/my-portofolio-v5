@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import gradientBG from "../assets/grid_bg.png"
 import { Outlet } from "react-router";
+import Footer from "../components/Footer";
 
 export default function MainLayout() {
   return (
@@ -10,6 +11,7 @@ export default function MainLayout() {
       }}>
         <Navbar />
         <Outlet />
+        <Footer />
       </div>
     </>
   )
