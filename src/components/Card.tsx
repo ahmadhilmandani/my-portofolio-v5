@@ -72,7 +72,7 @@ export default function Card({ logo, projectType, projectTitle, projectRole, sho
           }
         </div>
       </div>
-      <div className="w-[330px] h-full bg-sage-700 rounded-2xl absolute z-20 bottom-0 top-0 right-0 group-hover:right-[-15px] group-hover:rotate-5 rotate-0 group-hover:transition-all duration-300">
+      <div className="w-[330px] h-full bg-gradient-to-b from-sage-500 to-sage-800 rounded-2xl absolute z-20 bottom-0 top-0 right-0 group-hover:right-[-15px] group-hover:rotate-5 rotate-0 group-hover:transition-all duration-300">
       </div>
     </div>
   )
