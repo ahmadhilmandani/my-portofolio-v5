@@ -3,12 +3,12 @@ import type React from "react"
 
 
 type TButtonProp = {
-  onClickProp: () => void,
+  onClickProp?: () => void,
   buttonType: string,
-  isExtend: boolean,
+  isExtend?: boolean,
   children: React.ReactNode,
-  isLoading: boolean,
-  buttonSize: string
+  isLoading?: boolean,
+  buttonSize?: string
 }
 
 
@@ -19,7 +19,7 @@ const BUTTON_TYPE = {
 }
 
 
-export default function Button({ onClickProp = () => { }, buttonType = BUTTON_TYPE.OUTLINE, isExtend = false, children, isLoading = false, buttonSize = 'large' }: TButtonProp) {
+export default function Button({ onClickProp = () => { }, buttonType = BUTTON_TYPE.OUTLINE, isExtend = false, children, isLoading = false, buttonSize = 'base' }: TButtonProp) {
   if (buttonType == BUTTON_TYPE.PRIMARY) {
     return (
       <>
