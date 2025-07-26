@@ -1,9 +1,59 @@
 export const data = [
   {
+    id: 0,
+    title: "SEA Catering",
+    logo: "./projects/sea-catering-logo.svg",
+    type: "Submition",
+    role: "Fullstack",
+    year: 2025,
+    isPrimaryButtonToSite: true,
+    techUsed: ["React", "Tailwind", "Redux", "Express", "MySQL", "Figma"],
+    linkToFESite: "https://fe-sea-catering.netlify.app/",
+    linkToFEGithub: "https://github.com/ahmadhilmandani/fe-sea-catering",
+    linkToBEGithub: "https://github.com/ahmadhilmandani/be-sea-catering",
+    shortDesc:
+      "A healthy meal ordering website with customizable subscriptions and nutrition tracking, built as a concept for SEA Catering.",
+    overview: `SEA Catering is a conceptual web platform for a healthy meal delivery service, designed to reflect the core vision of “Healthy meals, delivered anywhere.” Although the project serves as a dummy prototype, it mimics the real-world functionalities of a full-featured catering business.
+
+    Built with a focus on user experience, SEA Catering allows customers to explore a curated menu of nutritious meals, view detailed nutritional information, and place orders with ease. The core highlight of the platform is its smart subscription system, which enables users to automate their meal plans according to their schedule and preferences—helping them stay committed to a healthy lifestyle without hassle.
+
+    From the business side, an admin dashboard is integrated to track performance metrics like Monthly Recurring Revenue (MRR), new subscriptions, and reactivated users—those who paused and later resumed their subscription. This makes SEA Catering not just a user-friendly experience for customers, but also a valuable analytical tool for business growth.`,
+    keyFeatures: [
+      {
+        title: "Order Healthy Meals Online (Customer)",
+        desc: "Browse through a list of healthy, chef-crafted meals and place orders for delivery with just a few clicks.",
+      },
+      {
+        title: "View Complete Nutritional Info (Customer)",
+        desc: `Every meal comes with a full breakdown of macronutrients and calories, helping users make informed dietary choices.`,
+      },
+      {
+        title: "Subscription System with Custom Scheduling (Customer)",
+        desc: `Users can subscribe to recurring meal plans, choosing the exact days and meals they want delivered each week. This eliminates the need to order repeatedly.`,
+      },
+      {
+        title: "Pause or Cancel Subscription Anytime (Customer)",
+        desc: `Subscriptions are flexible—users can pause their deliveries for a specific time or cancel them entirely with no friction.`,
+      },
+      {
+        title: "View Monthly Recurring Revenue (Admin)",
+        desc: `Real-time data on total recurring income from active subscriptions to evaluate business health.`,
+      },
+      {
+        title: "Monitor New Subscriptions (Admin)",
+        desc: `Keep track of the latest users who join the subscription service.`,
+      },
+      {
+        title: "Track Reactivations (Admin)",
+        desc: `Identify users who previously paused their subscriptions and chose to re-activate them—useful for retention analytics and marketing.`,
+      },
+    ],
+  },
+  {
     id: 1,
     title: "Camaba",
     logo: "./projects/logo_camaba.svg",
-    type: "Personal Project",
+    type: "Competition",
     role: "Frontend Web",
     year: 2024,
     isPrimaryButtonToSite: true,
@@ -32,7 +82,7 @@ export const data = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Quiz App",
     logo: "./projects/game-app-logo.svg",
     type: "Personal Project",
@@ -47,11 +97,11 @@ export const data = [
       "A fun and interactive trivia web app to test knowledge across various categories and challenge your thinking.",
     overview: `Quiz App is a dynamic, browser-based trivia platform designed to entertain and educate users by challenging their knowledge across a wide range of topics. Whether you're a casual learner or a trivia enthusiast, Quiz App provides an engaging experience through carefully crafted multiple-choice questions in categories like General Knowledge, Science, History, Pop Culture, and more.
 
-The application features a clean and responsive user interface, making it accessible on both desktop and mobile devices. Users can choose a category, set the difficulty level, and start the quiz instantly. Each session provides real-time feedback, tracks the user’s score, and displays the correct answers to enhance learning.
+    The application features a clean and responsive user interface, making it accessible on both desktop and mobile devices. Users can choose a category, set the difficulty level, and start the quiz instantly. Each session provides real-time feedback, tracks the user’s score, and displays the correct answers to enhance learning.
 
-To encourage repeat engagement, Quiz App can also support features like leaderboards, timed quizzes, and user progress tracking (optional depending on implementation). It's perfect for individuals looking to sharpen their knowledge, students preparing for competitive exams, or groups seeking an enjoyable educational activity.
+    To encourage repeat engagement, Quiz App can also support features like leaderboards, timed quizzes, and user progress tracking (optional depending on implementation). It's perfect for individuals looking to sharpen their knowledge, students preparing for competitive exams, or groups seeking an enjoyable educational activity.
 
-With its lightweight structure and intuitive design, Quiz App is more than just a game—it’s a gateway to fun learning.`,
+    With its lightweight structure and intuitive design, Quiz App is more than just a game—it’s a gateway to fun learning.`,
     keyFeatures: [
       {
         title: "Answering Trivia Questions",
@@ -60,6 +110,70 @@ With its lightweight structure and intuitive design, Quiz App is more than just 
       {
         title: "Scoring System",
         desc: `After each answer is submitted, the app provides immediate feedback—indicating whether the user answered correctly or not. At the end of the quiz, the app displays the final score, typically as the number of correct answers out of the total questions. This scoring system helps users track their performance, measure improvement over time, and stay motivated to try again.`,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "To Do List",
+    logo: "./projects/react-simple-planner-logo.svg",
+    type: "Submition",
+    role: "Frontend Web",
+    year: 2024,
+    isPrimaryButtonToSite: true,
+    techUsed: ["React", "Tailwind"],
+    linkToFESite: "https://to-do-list-ahmadhilmandani.netlify.app/",
+    linkToFEGithub:
+      "https://github.com/ahmadhilmandani/Frontendmentor-Hilman/tree/to-do-list-part-2",
+    linkToBEGithub: null,
+    shortDesc:
+      "A simple and responsive to-do list web app built with React, created for a Frontend Mentor coding challenge.",
+    overview: `To Do List is a minimalist and interactive task management web application developed using React, as part of a submission for the Frontend Mentor To-Do App Challenge. The goal of this project is to build a fully functional and visually appealing to-do list interface that supports essential task operations while demonstrating proficiency in frontend development best practices.
+
+    The app allows users to create, manage, and organize daily tasks in a clean and distraction-free interface. With a responsive design, it adapts beautifully across desktop and mobile screens. It also includes support for dark and light themes, enhancing usability and aesthetic consistency.
+
+    Designed to prioritize user experience and simplicity, this project focuses on both functionality and polished UI, making it a great example of building real-world applications using modern frontend frameworks like React.`,
+    keyFeatures: [
+      {
+        title: "Add New Task",
+        desc: `Users can enter a new to-do item using the input field at the top of the list. Once submitted, the task appears immediately in the list of items to be completed.`,
+      },
+      {
+        title: "Mark Task as Completed",
+        desc: `Each task includes a checkbox. Clicking the checkbox marks the task as completed, visually updating the item with a strikethrough or dimmed appearance to indicate it's done.`,
+      },
+      {
+        title: "Delete Task",
+        desc: `Tasks can be easily removed from the list using a delete (usually ×) icon next to each item. This helps users maintain a clean and focused to-do list.`,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Calculator App",
+    logo: "./projects/calculator-app-logo.svg",
+    type: "Submition",
+    role: "Frontend Web",
+    year: 2024,
+    isPrimaryButtonToSite: true,
+    techUsed: ["HTML", "CSS", "JS"],
+    linkToFESite:
+      "https://ahmadhilmandani.github.io/Frontendmentor-Hilman/calculator/",
+    linkToFEGithub:
+      "https://github.com/ahmadhilmandani/Frontendmentor-Hilman/tree/main/calculator",
+    linkToBEGithub: null,
+    shortDesc:
+      "A modern web-based calculator with essential functions and three visually distinct themes for a customizable user experience.",
+    overview: `Calculator App is a sleek, responsive, and theme-switchable web calculator built with a modern design approach. The project focuses on delivering a smooth and intuitive user experience while covering all the essential arithmetic functions you'd expect from a standard calculator—addition, subtraction, multiplication, and division.
+
+    What sets this calculator apart is its built-in theme customization feature. Users can switch between three different color themes (e.g., dark, light, and vibrant modes), offering a personalized interface that suits individual visual preferences or lighting conditions. The calculator adapts responsively to various screen sizes, making it equally usable on desktop and mobile devices.
+
+    Whether you're crunching numbers for work, school, or daily tasks, the Calculator App combines functionality and aesthetics to make the experience more pleasant and engaging.
+    `,
+    keyFeatures: [
+      {
+        title: "Basic Calculator Functions",
+        desc: `Perform standard operations such as addition, subtraction, multiplication, and division with a clear and easy-to-use interface.`,
       },
     ],
   },

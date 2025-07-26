@@ -6,7 +6,7 @@ export default function ProjectsSection() {
   return (
     <>
       <div className='w-full px-32 pt-32 pb-32'>
-        <div className="flex gap-24 flex-wrap items-center">
+        <div className="flex gap-24 flex-wrap items-center justify-center">
         {data?.map((val) => {
           return (
             <>

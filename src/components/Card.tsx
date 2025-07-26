@@ -34,7 +34,7 @@ export default function Card({ logo, projectType, projectTitle, projectRole, sho
         <div className="mt-5">
           <p>{shortDesc}</p>
         </div>
-        <div className="mt-10 flex gap-3">
+        <div className="mt-10 flex gap-3 flex-wrap">
           <Button onClickProp={() => { console.log(projectId) }} buttonType={'outline'} isExtend={false} isLoading={false} >
             Detail
           </Button>
@@ -58,7 +58,7 @@ export default function Card({ logo, projectType, projectTitle, projectRole, sho
             )
           }
         </div>
-        <div className="mt-10 flex gap-2 items-center">
+        <div className="mt-10 flex gap-2 items-center flex-wrap">
           {
             techUsed?.map((val) => {
               return (
