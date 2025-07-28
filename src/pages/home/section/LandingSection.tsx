@@ -1,4 +1,4 @@
-import { IconBrandMysql, IconBrandNextjs, IconBrandNodejs, IconBrandReact } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandLinkedin, IconBrandMysql, IconBrandNextjs, IconBrandNodejs, IconBrandReact, IconBrandX, IconMail } from "@tabler/icons-react";
 import Button from "../../../components/Button";
 import Me from "../../../assets/me.png"
 
@@ -18,12 +18,16 @@ export default function LandingSection() {
               Ahmad
               Hilman Dani
             </h1>
-            <div className='text-[28px]'>
-              Mostly Frontend,
-              <span className='inline-block mx-1 font-semibold relative z-10 text-[28px] transition-colors bg-gradient-to-br from-[#51624E] to-[#7FDCA2] bg-clip-text text-transparent'>
-                Chasing Fullstack,
+            <div className='flex gap-3 flex-wrap'>
+              <span className="text-[28px] text-nowrap">
+                Frontend Dev on
               </span>
-              Powered by Caffeine ☕
+              <span className='inline-block font-semibold relative z-10 text-[28px] transition-colors bg-gradient-to-br from-[#51624E] to-[#7FDCA2] bg-clip-text text-transparent text-nowrap'>
+                a Software Engineer Quest,
+              </span>
+              <span className="text-[28px] text-nowrap">
+                Fueled by Caffeine ☕
+              </span>
             </div>
             <div className='mt-16 flex gap-8'>
               <Button onClickProp={() => { }} buttonType={'primary'} isExtend={false} isLoading={false} buttonSize='large' >
@@ -37,6 +41,17 @@ export default function LandingSection() {
           <div className='relative'>
             <div
               className="absolute top-0 left-1/2 mt-[-160px] -translate-x-1/2 bg-linear-to-b from-khaki-500 to-khaki-600 max-w-sm w-full h-full flex justify-center items-center text-xs">atika nur royyanah, <br /> in my silence, <br /> i love you deeply.
+            </div>
+            <div className="absolute top-[11%] left-[-200px] flex flex-col gap-8 items-end z-30">
+              <div className="bg-gradient-to-br from-sage-100 to-sage-300 shadow-xl shadow-sage-700/25 border border-sage-300 rounded-lg text-wrap px-8 py-3 break-words">
+                Let's Connect!
+              </div>
+              <div className="bg-gradient-to-br from-sage-100 to-sage-300 shadow-xl shadow-sage-700/25 border border-sage-300 rounded-lg text-wrap px-8 py-3 break-words flex justify-center items-center flex-wrap gap-10">
+                <IconMail size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                <IconBrandGithub size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                <IconBrandLinkedin size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                <IconBrandX size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+              </div>
             </div>
             <img src={Me} alt="" className='relative z-20' />
             <div className='absolute bottom-0 right-0 max-w-2xl w-full bg-sage-500 h-80 rounded-t-full blur-[70px]'>
