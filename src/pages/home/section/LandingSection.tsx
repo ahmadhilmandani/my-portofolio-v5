@@ -75,10 +75,10 @@ export default function LandingSection() {
       {
         y: 0,
         opacity: 1,
-        duration: 0.3,
+        duration: 0.2,
         scrollTrigger: {
           trigger: '.summary-text',
-          start: "bottom 60%",
+          start: "bottom 90%",
         },
         stagger: 0.3,
       }
@@ -89,9 +89,6 @@ export default function LandingSection() {
     <>
       <div className='w-full px-32'>
         <div className='flex justify-between items-center pt-32'>
-          <div className='size-[800px] bg-sage-500 rounded-full absolute top-[-320px] left-[-240px] blur-[145px] z-10'>
-
-          </div>
           <div className='max-w-[640px] flex-1 relative z-20'>
             <div className='intro-text opacity-0 translate-y-[40px] text-xl'>
               Hello, there 👋! My name is

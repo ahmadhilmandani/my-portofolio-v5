@@ -12,7 +12,7 @@ export default function Navbar() {
         <Link to={'/'}>
           Home
         </Link>
-        <Link to={'/'}>
+        <Link to={'/projects'}>
           Projects
         </Link>
         <div>

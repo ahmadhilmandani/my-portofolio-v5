@@ -10,7 +10,12 @@ export default function MainLayout() {
         backgroundImage: `url(${gradientBG})`
       }}>
         <Navbar />
-        <Outlet />
+        <div className='size-[800px] bg-sage-500/80 rounded-full absolute top-[-320px] left-[-240px] blur-[280px] z-10'>
+
+        </div>
+        <div className="relative z-50">
+          <Outlet />
+        </div>
         <Footer />
       </div>
     </>

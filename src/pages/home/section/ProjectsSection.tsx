@@ -45,7 +45,7 @@ export default function ProjectsSection() {
           {data?.map((val, index) => {
             if (index <= 2) {
               return (
-                <div className="project-content">
+                <div className="project-content" key={val.id}>
                   <Card
                     logo={val.logo}
                     projectType={val.type}
@@ -53,7 +53,8 @@ export default function ProjectsSection() {
                     projectRole={val.role}
                     shortDesc={val.shortDesc}
                     projectId={val.id}
-                    isPrimaryButtonToSite={val.isPrimaryButtonToSite}
+                    linkToFESite={val.linkToFESite}
+                    linkToGithub={val.linkToFEGithub}
                     techUsed={val.techUsed}
                   />
                 </div>
