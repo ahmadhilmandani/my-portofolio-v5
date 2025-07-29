@@ -20,7 +20,7 @@ export default function ProjectsSection() {
         opacity: 1,
         scrollTrigger: {
           trigger: '.project-content',
-          start: "bottom 60%",
+          start: "bottom 40%",
         },
         stagger: 0.3,
       }

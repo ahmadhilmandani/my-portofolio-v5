@@ -78,7 +78,7 @@ export default function LandingSection() {
         duration: 0.3,
         scrollTrigger: {
           trigger: '.summary-text',
-          start: "bottom 80%",
+          start: "bottom 60%",
         },
         stagger: 0.3,
       }
@@ -146,7 +146,7 @@ export default function LandingSection() {
           </div>
         </div>
 
-        <div className='w-screen border-sage-500 border bg-radial-[at_50%_20%] from-sage-500 to-bg-khaki ml-[-132px] px-24 flex gap-32 items-center py-28 justify-between relative z-40'>
+        <div className='w-screen border-sage-500 border bg-radial-[at_50%_20%] from-sage-500 to-khaki-200 ml-[-132px] px-24 flex gap-32 items-center py-28 justify-between relative z-40'>
           <div className='summary-text translate-y-5 mb-3 max-w-[480px] flex-1'>
             <h3>
               Summary Of Me
