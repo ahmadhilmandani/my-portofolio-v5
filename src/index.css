@@ -103,11 +103,10 @@
   mark,
   audio,
   video {
-    font-size: 14.5px;
     line-height: 160%;
     font-family: "Plus Jakarta Sans", sans-serif;
 
-    @apply text-text-black font-light;
+    @apply text-text-black font-light text-[14.5px];
   }
   h1,
   h2,
@@ -123,11 +122,11 @@
   }
 
   h2 {
-    @apply text-4xl leading-[160%] tracking-[0.15px];
+    @apply text-3xl leading-[160%] tracking-[0.15px];
   }
 
   h3 {
-    @apply text-2xl leading-[160%] tracking-[0.15px];
+    @apply text-xl leading-[160%] tracking-[0.15px];
   }
 
   p {

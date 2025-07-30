@@ -47,6 +47,16 @@ export const data = [
         desc: `Identify users who previously paused their subscriptions and chose to re-activate them—useful for retention analytics and marketing.`,
       },
     ],
+    lessonLearn: `SEA Catering was a deeply meaningful project for me—not just technically, but also personally. It marked the very first time I built and completed a full-stack web application entirely on my own, from start to finish. Unlike my previous experiences, where I worked in a team and responsibilities were distributed, this time I handled everything: design, frontend, backend, and deployment.
+
+    That independence challenged me in ways I hadn’t fully anticipated. I was forced out of my comfort zone and into roles I had only partially experienced before. Designing the UI/UX gave me a deeper appreciation for layout, usability, and accessibility. Building the frontend taught me to think in components, manage state effectively, and integrate dynamic data smoothly. On the backend, I built RESTful APIs, handled authentication, managed databases, and set up subscription logic. These were things I had done in parts before, but never all at once—and never fully under my control.
+
+    One of the most fulfilling moments in this journey was being able to deploy both the frontend and backend successfully using DOM Cloud. It may sound simple, but for me, it was special. Previously, deployment was something handled by someone else in the team—or it was partial, like frontend only. This time, it was me, end-to-end. Seeing the entire application live and working felt like a real milestone.
+
+    Along the way, I also encountered and learned new technologies and concepts, one of which was YAML. I had heard of it before, but SEA Catering was my first real hands-on experience using it—particularly in configuration files for deployment or service integration. Understanding how indentation and structure define the behavior of your setup was both frustrating and eye-opening. But once it clicked, YAML became an invaluable part of my toolset.
+
+    In short, SEA Catering wasn’t just a project to showcase features—it became a personal proof of capability. It taught me discipline, responsibility, and confidence as a developer. It reminded me that I can build real, complete things from the ground up. And more than anything, it fueled my motivation to keep learning and pushing forward.
+    `
   },
   {
     id: 1,

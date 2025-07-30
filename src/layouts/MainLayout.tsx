@@ -16,7 +16,9 @@ export default function MainLayout() {
         <div className="relative z-50">
           <Outlet />
         </div>
-        <Footer />
+        <div className="mt-80">
+          <Footer />
+        </div>
       </div>
     </>
   )
