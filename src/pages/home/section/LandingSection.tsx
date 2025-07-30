@@ -80,7 +80,7 @@ export default function LandingSection() {
           trigger: '.summary-text',
           start: "bottom 90%",
         },
-        stagger: 0.3,
+        stagger: 0.2,
       }
     )
   })

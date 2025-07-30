@@ -4,6 +4,7 @@ import { data } from "../../../data.ts"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap"
+import { Link } from "react-router";
 
 export default function ProjectsSection() {
   // const gsapTimeline = gsap.timeline()
@@ -22,7 +23,8 @@ export default function ProjectsSection() {
           trigger: '.project-content',
           start: "bottom 40%",
         },
-        stagger: 0.3,
+        stagger: 0.2,
+        duration: 0.2,
       }
     )
   }, [])
@@ -63,9 +65,11 @@ export default function ProjectsSection() {
           })}
         </div>
         <div className="project-content flex justify-center">
-          <Button buttonType={'primary'}>
-            See More
-          </Button>
+          <Link to={'projects'}>
+            <Button buttonType={'primary'}>
+              See More
+            </Button>
+          </Link>
         </div>
       </div>
     </>
