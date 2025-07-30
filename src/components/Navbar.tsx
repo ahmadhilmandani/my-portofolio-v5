@@ -1,8 +1,9 @@
-import { Link } from "react-router"
+import { Link, NavLink } from "react-router"
 import Logo from "../assets/logo.svg"
 import Button from "./Button"
 
 export default function Navbar() {
+
   return (
     <nav className="w-full h-[82px] border-b border-khaki-600 fixed top-0 left-0 right-0 flex justify-between items-center px-32 z-[100] bg-[#F0ECE9]/15 backdrop-blur">
       <Link to={'/'}>
@@ -11,12 +12,17 @@ export default function Navbar() {
         </div>
       </Link>
       <div className="flex gap-12 items-center">
-        <Link to={'/'}>
+        <NavLink to={'/'}
+          className={({ isActive }) => isActive ? "font-semibold text-sage-800 transition-all rounded-lg bg-sage-100 px-3 py-1.5" : "px-3 py-1.5"}
+        >
           Home
-        </Link>
-        <Link to={'/projects'}>
+        </NavLink>
+        <NavLink
+          to="/projects"
+          className={({ isActive }) => isActive ? "font-semibold text-sage-800 transition-all rounded-lg bg-sage-100 px-3 py-1.5" : "px-3 py-1.5"}
+        >
           Projects
-        </Link>
+        </NavLink>
         <div>
           <Button onClickProp={() => { window.open('https://drive.google.com/file/d/1PSIpTBwxD4lt5q1w5tBlVAspshH4lu6-/view?usp=sharing', '_blank') }} buttonType={'primary'} isExtend={false} isLoading={false} buttonSize='small' >
             My CV
