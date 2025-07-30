@@ -6,7 +6,15 @@ export const data = [
     type: "Submition",
     role: "Fullstack",
     year: 2025,
-    techUsed: ["React", "Tailwind", "Redux", "Express", "MySQL", "Figma", "YAML"],
+    techUsed: [
+      "React",
+      "Tailwind",
+      "Redux",
+      "Express",
+      "MySQL",
+      "Figma",
+      "YAML",
+    ],
     linkToFESite: "https://fe-sea-catering.netlify.app/",
     linkToFEGithub: "https://github.com/ahmadhilmandani/fe-sea-catering",
     linkToBEGithub: "https://github.com/ahmadhilmandani/be-sea-catering",
@@ -56,7 +64,7 @@ export const data = [
     Along the way, I also encountered and learned new technologies and concepts, one of which was YAML. I had heard of it before, but SEA Catering was my first real hands-on experience using it—particularly in configuration files for deployment or service integration. Understanding how indentation and structure define the behavior of your setup was both frustrating and eye-opening. But once it clicked, YAML became an invaluable part of my toolset.
 
     In short, SEA Catering wasn’t just a project to showcase features—it became a personal proof of capability. It taught me discipline, responsibility, and confidence as a developer. It reminded me that I can build real, complete things from the ground up. And more than anything, it fueled my motivation to keep learning and pushing forward.
-    `
+    `,
   },
   {
     id: 1,
@@ -88,6 +96,7 @@ export const data = [
         Each recommended major includes a brief explanation and rationale, helping users connect their personal strengths with real academic and career options. This ensures the recommendations are not only relevant but also actionable.`,
       },
     ],
+    lessonLearn: null,
   },
   {
     id: 2,
@@ -119,6 +128,7 @@ export const data = [
         desc: `After each answer is submitted, the app provides immediate feedback—indicating whether the user answered correctly or not. At the end of the quiz, the app displays the final score, typically as the number of correct answers out of the total questions. This scoring system helps users track their performance, measure improvement over time, and stay motivated to try again.`,
       },
     ],
+    lessonLearn: null,
   },
   {
     id: 3,
@@ -153,6 +163,7 @@ export const data = [
         desc: `Tasks can be easily removed from the list using a delete (usually ×) icon next to each item. This helps users maintain a clean and focused to-do list.`,
       },
     ],
+    lessonLearn: null,
   },
   {
     id: 4,
@@ -181,5 +192,6 @@ export const data = [
         desc: `Perform standard operations such as addition, subtraction, multiplication, and division with a clear and easy-to-use interface.`,
       },
     ],
+    lessonLearn: null,
   },
 ];

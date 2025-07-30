@@ -110,14 +110,14 @@ export default function LandingSection() {
             </div>
             <div className='mt-16 flex gap-8'>
               <div className="intro-text opacity-0 translate-y-[40px]">
-                <Button onClickProp={() => { }} buttonType={'primary'} isExtend={false} isLoading={false} buttonSize='large' >
-                  See My CV
+                <Button onClickProp={() => { window.open('https://drive.google.com/file/d/1PSIpTBwxD4lt5q1w5tBlVAspshH4lu6-/view?usp=sharing', '_blank') }} buttonType={'primary'} isExtend={false} isLoading={false} buttonSize='large' >
+                  My CV
                 </Button>
               </div>
               <div className="intro-text opacity-0 translate-y-[40px]">
 
-                <Button onClickProp={() => { }} buttonType={'outline'} isExtend={false} isLoading={false} buttonSize='large' >
-                  Explore More !
+                <Button onClickProp={() => { window.open('https://www.linkedin.com/in/ahmad-hilman-dani', '_blank') }} buttonType={'outline'} isExtend={false} isLoading={false} buttonSize='large' >
+                  My Linkedin
                 </Button>
               </div>
             </div>
@@ -131,10 +131,18 @@ export default function LandingSection() {
                 Let's Connect!
               </div>
               <div id="contact-element" className="lets-connect opacity-0 rotate-[-30deg] relative top-[30px] bg-gradient-to-br from-sage-100 to-sage-300 border border-sage-500 rounded-lg text-wrap px-8 py-3 break-words flex justify-center items-center flex-wrap gap-10">
-                <IconMail size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
-                <IconBrandGithub size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
-                <IconBrandLinkedin size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
-                <IconBrandX size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                <a href="mailto:ahmadhilmanlagi@gmail.com" >
+                  <IconMail size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                </a>
+                <a href="https://github.com/ahmadhilmandani" target="_blank">
+                  <IconBrandGithub size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                </a>
+                <a href="https://www.linkedin.com/in/ahmad-hilman-dani" target="_blank">
+                  <IconBrandLinkedin size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                </a>
+                <a href="https://x.com/lilbitmessy__" target="_blank">
+                  <IconBrandX size={20} className="hover:translate-y-[-2px] transition-all cursor-pointer hover:stroke-sage-800" />
+                </a>
               </div>
             </div>
             <img src={Me} alt="" className='img-of-me relative z-40 opacity-40 translate-y-2' />

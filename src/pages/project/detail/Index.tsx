@@ -168,18 +168,24 @@ export default function ProjectDetailIndex() {
               }
             </div>
 
-            <div className="mb-28 text-justify">
-              <div className="flex gap-8 items-stretch mb-5">
-                <div className="project-content w-2 bg-gradient-to-b from-sage-500 to-sage-800">
+            {detailData?.lessonLearn ?
+              (
+                <div className="mb-28 text-justify">
+                  <div className="flex gap-8 items-stretch mb-5">
+                    <div className="project-content w-2 bg-gradient-to-b from-sage-500 to-sage-800">
+                    </div>
+                    <h2 className="project-content">
+                      Lessons Learned
+                    </h2>
+                  </div>
+                  <p>
+                    {detailData?.lessonLearn}
+                  </p>
                 </div>
-                <h2 className="project-content">
-                  Lessons Learned
-                </h2>
-              </div>
-              <p>
-                {detailData?.lessonLearn}
-              </p>
-            </div>
+              )
+              :
+              ''
+            }
           </main>
         </div>
       </div>
