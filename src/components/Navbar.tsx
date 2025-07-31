@@ -5,21 +5,18 @@ import Button from "./Button"
 export default function Navbar() {
 
   return (
-    <nav className="w-full h-[82px] border-b border-khaki-600 fixed top-0 left-0 right-0 flex justify-between items-center px-32 z-[100] bg-[#F0ECE9]/15 backdrop-blur">
+    <nav className="w-full h-[82px] border-b border-khaki-600 fixed top-0 left-0 right-0 flex justify-between items-center px-6 xl:px-32 z-[100] bg-[#F0ECE9]/15 backdrop-blur">
       <Link to={'/'}>
         <div className="bg-[#27272A] rounded-xl size-10 flex items-center justify-center">
           <img src={Logo} alt="" className="w-4" />
         </div>
       </Link>
-      <div className="flex gap-12 items-center">
-        <NavLink to={'/'}
-          className={({ isActive }) => isActive ? "font-semibold text-sage-800 transition-all rounded-lg bg-sage-100 px-3 py-1.5" : "px-3 py-1.5"}
+      <div className="hidden xl:flex gap-12 items-center">
+        <NavLink to={'/'} className={({ isActive }) => isActive ? "font-semibold text-sage-800 transition-all rounded-lg bg-sage-100 px-3 py-1.5" : "px-3 py-1.5"}
         >
           Home
         </NavLink>
-        <NavLink
-          to="/projects"
-          className={({ isActive }) => isActive ? "font-semibold text-sage-800 transition-all rounded-lg bg-sage-100 px-3 py-1.5" : "px-3 py-1.5"}
+        <NavLink to="/projects" className={({ isActive }) => isActive ? "font-semibold text-sage-800 transition-all rounded-lg bg-sage-100 px-3 py-1.5" : "px-3 py-1.5"}
         >
           Projects
         </NavLink>

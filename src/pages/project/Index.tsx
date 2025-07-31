@@ -28,7 +28,7 @@ export default function ProjectIndex() {
 
   return (
     <>
-      <div className='w-full px-32 pt-32 pb-32'>
+      <div className='w-full pt-32 pb-32 px-6 lg:px-12 xl:px-32'>
         <div className="mb-12">
           <div className="flex gap-8 items-stretch mb-5">
             <div className="project-content w-2 bg-gradient-to-b from-sage-500 to-sage-800">

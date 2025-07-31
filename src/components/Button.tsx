@@ -66,7 +66,7 @@ export default function Button({ onClickProp = () => { }, buttonType = BUTTON_TY
   else if (buttonType == BUTTON_TYPE.OUTLINE) {
     return (
       <>
-        <button onClick={onClickProp} className={`relative z-10 border border-text-black bg-khaki-300 font-semibold px-10 py-2.5 rounded-full transition-all duration-400 hover:shadow-xl hover:shadow-text-black/10 hover:cursor-pointer ${isExtend && 'w-full'} ${isLoading ? 'cursor-not-allowed' : 'cursor-pointer'}`}>
+        <button onClick={onClickProp} className={`relative z-10 border border-text-black bg-khaki-200 font-semibold px-10 py-2.5 rounded-full transition-all duration-400 hover:shadow-xl hover:shadow-text-black/10 hover:cursor-pointer ${isExtend && 'w-full'} ${isLoading ? 'cursor-not-allowed' : 'cursor-pointer'}`}>
           <div className={`relative z-50 text-text-black ${buttonSize == 'large' ? 'text-2xl' : buttonSize == 'base' ? 'text-[14px]' : 'text-[12px]'} font-semibold`}>
             {isLoading && <IconLoader2 className="animate-spin text-sm" />}
             {children}
