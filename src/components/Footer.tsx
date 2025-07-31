@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-radial-[at_50%_20%] from-[#333337] to-text-black px-24 pt-28 pb-8 relative z-50">
-        <div className="flex gap-16 justify-around mb-32">
+        <div className="flex gap-16 justify-around mb-32 flex-wrap">
           <div>
             <img src={Logo} alt="" className="w-8" />
           </div>
