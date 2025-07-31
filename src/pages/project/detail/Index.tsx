@@ -24,7 +24,7 @@ export default function ProjectDetailIndex() {
 
   return (
     <>
-      <div className='w-full px-32 pt-32'>
+      <div className='w-full pt-32 px-6 lg:px-12 xl:px-32'>
         <Button buttonType="danger" onClickProp={() => {
           navigate('/projects')
         }}>
@@ -47,8 +47,8 @@ export default function ProjectDetailIndex() {
           <p className="mx-auto my-12 text-center max-w-[560px] text-black/55 text-[16px]">
             Collect song requests from people easily, just like ngl.link but integrated with spotify API. Made for Hashnode X Planetscale hackathon.
           </p>
-          <div className="bg-khaki-200 border-y border-khaki-500 mx-[-128px] flex justify-center">
-            <div className="flex justify-center items-center divide-x divide-khaki-500 border-x border-khaki-500">
+          <div className="bg-khaki-200 border-y border-khaki-500 xl:mx-[-128px] flex justify-center">
+            <div className="xl:flex justify-center items-center divide-y xl:divide-y-0 xl:divide-x divide-khaki-500 border-x border-khaki-500">
               <div className="px-32 py-10 bg-rose-">
                 <h3>
                   Type
@@ -76,7 +76,7 @@ export default function ProjectDetailIndex() {
             </div>
           </div>
           <main className="mt-10 mx-auto w-full max-w-[1280px]">
-            <div className="flex gap-24 justify-between mb-28">
+            <div className="flex gap-24 justify-between mb-28 flex-wrap">
               <div className="min-w-[300px] flex-1 text-justify">
                 <div className="flex gap-8 items-stretch mb-5">
                   <div className="project-content w-2 bg-gradient-to-b from-sage-500 to-sage-800">
