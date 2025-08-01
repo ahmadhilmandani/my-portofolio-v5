@@ -28,7 +28,7 @@ export default function Navbar() {
           </Button>
         </div>
       </div>
-      <div>
+      <div className="block xl:hidden">
         <IconMenu2 className="stroke-khaki-800" size={24} stroke={2.5} onClick={() => {
           dispatch(toggleSidebar())
         }} />
