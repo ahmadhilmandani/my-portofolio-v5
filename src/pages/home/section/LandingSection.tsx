@@ -171,7 +171,7 @@ export default function LandingSection() {
               Summary Of Me
             </h3>
             <div className='summary-text translate-y-5 text-[#3f3f3f] text-justify text-pretty'>
-              More than 6 months as a Frontend Web Developer (intern & part-time) and still going strong! I mostly work with React, but Vue is also my buddy!
+              Curently working as a programmer at RSUD Dr. H. Moh. Anwar Sumenep using knockout js as a frontend, flask as a backend, mysql as database! But I mostly and prefer work with React, Node, And Mysql, Oh yeah, Vue is also my buddy!
             </div>
           </div>
           <div className='mb-3 flex-1'>
